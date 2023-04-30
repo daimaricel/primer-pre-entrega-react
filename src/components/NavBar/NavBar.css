@@ -1,0 +1,26 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly ;
+    background-color: blue;
+}
+
+li{
+    display: inline-block;
+    margin: 15px;
+    background-color: azure;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 0.5rem;
+    border: 3px solid mediumorchid;
+    font-weight: bold;
+}
+
+.sale{
+    font-weight: bolder;
+    background-color: mediumorchid;
+}
+
+.logoDl{
+    width: 3rem;
+}

@@ -1,0 +1,14 @@
+.chart{
+    width: 4rem;
+}
+
+.carro{
+    display: inline;
+}
+
+strong{
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding: 5px;
+}
+
