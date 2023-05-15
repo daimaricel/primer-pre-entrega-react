@@ -1,8 +1,14 @@
-header{
+nav{
     display: flex;
     align-items: center;
     justify-content: space-evenly ;
     background-color: blue;
+}
+
+nav h1{
+    font-family:inherit;
+    font-weight: bolder;
+    
 }
 
 li{
