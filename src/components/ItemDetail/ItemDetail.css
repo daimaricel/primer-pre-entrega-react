@@ -1,13 +1,13 @@
-.contenedorDescripcion{
-    text-align: left;
-    border: 2px solid blue;
-    margin: 2rem;
+.contenedorDescripcion {
+  text-align: left;
+  border: 2px solid blue;
+  margin: 2rem;
 }
 
-.contenedorDescripcion p{
-    padding: 0.5rem;
+.contenedorDescripcion p {
+  padding: 0.5rem;
 }
 
-.imm{
-    width: 35vw;
+.imm {
+  width: 30vw;
 }

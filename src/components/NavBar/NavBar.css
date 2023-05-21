@@ -1,32 +1,21 @@
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly ;
-    background-color: blue;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: blue;
+  padding: 1rem;
 }
 
-nav h1{
-    font-family:inherit;
-    font-weight: bolder;
-    
+li {
+  display: inline-block;
+  margin: 15px;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 0.3rem;
+  border: 3px solid #fed7ea;
+  font-weight: bold;
 }
 
-li{
-    display: inline-block;
-    margin: 15px;
-    background-color: azure;
-    cursor: pointer;
-    border-radius: 8px;
-    padding: 0.5rem;
-    border: 3px solid #fed7ea;
-    font-weight: bold;
-}
-
-.sale{
-    font-weight: bolder;
-    background-color: mediumorchid;
-}
-
-.logoDl{
-    width: 3rem;
+.logoDl {
+  width: 20rem;
 }
