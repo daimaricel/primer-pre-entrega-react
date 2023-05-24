@@ -1,4 +1,7 @@
 import "./ItemDetail.css";
+import ItemCount from "../ItemCount/ItemCount";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const ItemDetail = ({
   producto,
@@ -6,9 +9,17 @@ const ItemDetail = ({
   modelo,
   precio,
   img,
+  stock,
   id,
   descripcion,
 }) => {
+
+  const [agregarCantidad, setAgregarCantidad] = useState (0)
+  
+  const handleCantidad =  (cantidad) =>{
+    setAgregarCantidad (cantidad);
+    console.log("Productos agregados: " + cantidad)
+  }
   return (
     <div className="contenedorDescripcion">
       <h2>
@@ -18,6 +29,13 @@ const ItemDetail = ({
       <p>Descripción:</p>
       <p>{descripcion}</p>
       <p>Precio: ${precio}</p>
+
+      {
+
+      }
+      {
+        agregarCantidad >0 ? (<Link to = "/cart">Terminar compra</Link>) : (<ItemCount inicial = {1} stock = {stock} funcionIncluir={handleCantidad}/>)
+      }
     </div>
   );
 };

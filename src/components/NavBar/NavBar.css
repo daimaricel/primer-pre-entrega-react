@@ -12,7 +12,7 @@ li {
   cursor: pointer;
   border-radius: 8px;
   padding: 0.3rem;
-  border: 3px solid #fed7ea;
+ /*  border: 3px solid palevioletred; */
   font-weight: bold;
 }
 
