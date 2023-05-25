@@ -76,7 +76,7 @@ const productos = [
     modelo: "Pure Aero",
     marca: "Babolat",
     stock: 6,
-    precio: 58000,
+    precio: 78000,
     id: "7",
     img: "../img/mochila-babolat-pure-aero.webp",
     idCategoria: "mochilas",

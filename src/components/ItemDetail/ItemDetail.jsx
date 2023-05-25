@@ -1,7 +1,8 @@
 import "./ItemDetail.css";
 import ItemCount from "../ItemCount/ItemCount";
-import { useState } from "react";
+import { useState, useContext } from "react";
 import { Link } from "react-router-dom";
+import { CarroContext } from "../Context/CarritoContext";
 
 const ItemDetail = ({
   producto,
@@ -16,9 +17,13 @@ const ItemDetail = ({
 
   const [agregarCantidad, setAgregarCantidad] = useState (0)
   
+  const {addProducts} =useContext(CarroContext);
+  
   const handleCantidad =  (cantidad) =>{
     setAgregarCantidad (cantidad);
-    console.log("Productos agregados: " + cantidad)
+    
+    const item = {id, producto, modelo, marca, precio};
+    addProducts(item, cantidad);
   }
   return (
     <div className="contenedorDescripcion">
