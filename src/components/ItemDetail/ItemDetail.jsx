@@ -22,7 +22,7 @@ const ItemDetail = ({
   const handleCantidad =  (cantidad) =>{
     setAgregarCantidad (cantidad);
     
-    const item = {id, producto, modelo, marca, precio};
+    const item = {id, producto, modelo, marca, precio, img};
     addProducts(item, cantidad);
   }
   return (

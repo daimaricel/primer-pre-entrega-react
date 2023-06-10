@@ -6,8 +6,13 @@
   display: inline;
 }
 
-strong {
+span {
   background-color: #fed7ea;
-  border-radius: 10px;
+  border-radius: 30px;
   padding: 5px;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
 }

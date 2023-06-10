@@ -1,0 +1,21 @@
+footer{
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem;
+    color: black;
+    font-size: 14px;
+    margin-top: 1rem;
+    
+}
+
+.logoF{
+    width: 6rem;
+}
+
+.divF{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
