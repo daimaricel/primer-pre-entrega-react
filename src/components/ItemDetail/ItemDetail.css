@@ -1,13 +1,25 @@
 .contenedorDescripcion {
-  text-align: left;
   border: 2px solid blue;
-  margin: 2rem;
-}
+  margin: auto;
+  width: 70vw;
+  display:flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+  }
 
-.contenedorDescripcion p {
+ .contenedorDescripcion p {
   padding: 0.5rem;
-}
+} 
 
 .imm {
   width: 30vw;
+  margin: auto;
+ 
+}
+
+.precio{
+  font-size: 18px;
+  background-color:  #fed7ea;
+  padding: 0.5rem;
+  text-align: center;
 }

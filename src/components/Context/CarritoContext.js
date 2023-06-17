@@ -13,8 +13,6 @@ export const CarroProvider = ({ children }) => {
   const [total, setTotal]= useState(0);
   const [totalItems, setTotalItems]= useState(0);
 
-  /* console.log(carrito); */
-
 
   const addProducts = (item, cantidad) => {
    

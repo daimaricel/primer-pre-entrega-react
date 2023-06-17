@@ -22,7 +22,7 @@ const ItemDetail = ({
   const handleCantidad =  (cantidad) =>{
     setAgregarCantidad (cantidad);
     
-    const item = {id, producto, modelo, marca, precio, img};
+    const item = {id, producto, modelo, marca, precio, img, descripcion};
     addProducts(item, cantidad);
   }
   return (
@@ -33,11 +33,7 @@ const ItemDetail = ({
       <img className="imm" src={img} alt={producto} />
       <p>Descripción:</p>
       <p>{descripcion}</p>
-      <p>Precio: ${precio}</p>
-
-      {
-
-      }
+      <p className="precio">Precio: ${precio}</p>
       {
         agregarCantidad >0 ? (<Link to = "/cart">Terminar compra</Link>) : (<ItemCount inicial = {1} stock = {stock} funcionIncluir={handleCantidad}/>)
       }

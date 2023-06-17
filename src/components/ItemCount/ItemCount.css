@@ -1,4 +1,31 @@
 .contador{
     display: flex;
     flex-direction: row;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
 }
+
+.contador button{
+    border-radius: 12px;
+    border: 2px solid blue;
+}
+
+.contadorEstilo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.button {
+    transition-duration: 0.4s;
+    border: 2px solid blue;
+    border-radius: 12px;
+  }
+  
+  .button:hover {
+    background-color: blue;
+    color: white;
+    
+  }
