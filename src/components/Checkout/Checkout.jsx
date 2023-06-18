@@ -63,7 +63,7 @@ const Checkout = () => {
             <p>
              {producto.item.producto} {producto.item.marca} {producto.item.modelo} x {producto.cantidad}   
             </p>
-            <p>Precio: ${producto.item.precio}*{producto.cantidad}</p>
+            <p>Precio: ${producto.item.precio}</p>
             </div>
            )
             )}
@@ -80,7 +80,7 @@ const Checkout = () => {
 
             <div>
                 <label htmlFor="">Teléfono</label>
-                <input type="number" value={telefono} onChange={(e)=> setTelefono(e.target.value)}/>
+                <input type="text" value={telefono} onChange={(e)=> setTelefono(e.target.value)}/>
             </div>
 
             <div>
