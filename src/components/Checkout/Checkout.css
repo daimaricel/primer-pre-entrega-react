@@ -3,11 +3,13 @@
 }
 
 form{
-    width:300px;
+    width:400px;
 	padding:16px;
 	border-radius:10px;
 	margin:auto;
 	background-color: #fed7ea;
+	margin-bottom: 2rem;
+
 }
 
 form label{
@@ -41,4 +43,10 @@ button[type="submit"]{
 
 button [type="submit"]:hover{
 	cursor:pointer;
+}
+
+.ordenId{
+	background-color: #fed7ea;
+	padding: 5px;
+	margin-left: 2rem;
 }

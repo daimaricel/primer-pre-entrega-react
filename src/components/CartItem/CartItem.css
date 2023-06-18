@@ -19,3 +19,7 @@
     rgba(111, 113, 255, 0.548);
     padding: 1rem;
  }
+
+ .cesto{
+    cursor: pointer;
+ }

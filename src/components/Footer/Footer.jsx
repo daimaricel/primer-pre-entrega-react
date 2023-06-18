@@ -10,10 +10,10 @@ const Footer = () => {
         <p>Todos los derechos reservados</p>
 
         <div>
-            <img src="../img/instagram.png" alt="logo de instagram"/>
-            <img src="../img/facebook.png" className= "logoF" alt="logo de facebook" />
-            <img src="../img/twitter.png" alt="logo de twitter" className="logoT"/>
-            <img src="../img/sobre.png" alt="logo de email" />
+            <img src="../img/instagram.png" alt="logo de instagram" title="Instagram"/>
+            <img src="../img/facebook.png" className= "logoF" alt="logo de facebook" title="Facebook"/>
+            <img src="../img/twitter.png" alt="logo de twitter" className="logoT"title="Twitter"/>
+            <img src="../img/sobre.png" alt="logo de email"title="E-mail" />
         </div>
     </footer>
   )

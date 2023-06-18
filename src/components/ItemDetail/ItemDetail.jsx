@@ -35,7 +35,7 @@ const ItemDetail = ({
       <p>{descripcion}</p>
       <p className="precio">Precio: ${precio}</p>
       {
-        agregarCantidad >0 ? (<Link to = "/cart">Terminar compra</Link>) : (<ItemCount inicial = {1} stock = {stock} funcionIncluir={handleCantidad}/>)
+        agregarCantidad >0 ? (<div><Link to = "/" className="links">Seguir comprando</Link><Link to = "/cart" className="links">Terminar compra</Link></div>) : (<ItemCount inicial = {1} stock = {stock} funcionIncluir={handleCantidad}/>)
       }
     </div>
   );

@@ -12,7 +12,8 @@ const CartItem = ({item, cantidad} ) => {
         <div>
         <p>Cantidad: {cantidad}</p>
         <p>Precio: ${item.precio}</p>
-        <button onClick ={() => deleteItem(item.id)}>Eliminar</button>
+        {/* <button onClick ={() => deleteItem(item.id)}>Eliminar</button> */}
+        <img src="../img/contenedor-de-basura.png" alt="eliminar" className= "cesto" title= "Eliminar" onClick ={() => deleteItem(item.id)}/>
         </div>
         </div>
     </div>

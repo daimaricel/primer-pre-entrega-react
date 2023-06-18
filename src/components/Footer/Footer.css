@@ -7,12 +7,12 @@ footer{
     color: black;
     font-size: 14px;
     margin-top: 2rem;
-    position: static;
-    bottom: 0;
+   height: 5rem;
 }
 
 .logoD{
-    width: 6rem;
+    width: 5rem;
+    margin-bottom: 0.5rem;
 }
 
 .divF{

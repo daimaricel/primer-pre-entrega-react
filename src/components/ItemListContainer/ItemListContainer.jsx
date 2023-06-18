@@ -26,10 +26,10 @@ const ItemListContainer = ({ greeting }) => {
     .catch(error =>console.log (error))
     }, [idCat])
   return (
-    <>
+    <div className="ajustar">
       <h2>{(greeting = "Bienvenidos a nuestra tienda virtual")}</h2>
       <ItemList productos={productos} />
-    </>
+    </div>
   );
 };
 

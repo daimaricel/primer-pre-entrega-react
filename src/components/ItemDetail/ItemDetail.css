@@ -23,3 +23,14 @@
   padding: 0.5rem;
   text-align: center;
 }
+
+.links{
+  background-color: #fed7ea;
+  color: black;
+  display: inline;
+  margin-left: 1rem;
+  width: fit-content;
+  padding: 5px;
+  text-decoration: underline;
+
+}

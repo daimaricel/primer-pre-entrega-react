@@ -100,7 +100,7 @@ const Checkout = () => {
         </form>
         {
             ordenId && (
-                <strong>¡Gracias por comprar en Dalas Tennis store! Número de orden: {ordenId}</strong> 
+                <strong className="ordenId">¡Gracias por comprar en Dalas Tennis store! Número de orden: {ordenId}</strong> 
             )
         }
     </div>
