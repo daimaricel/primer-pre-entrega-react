@@ -6,11 +6,12 @@ footer{
     padding: 0.5rem;
     color: black;
     font-size: 14px;
-    margin-top: 1rem;
-    
+    margin-top: 2rem;
+    position: static;
+    bottom: 0;
 }
 
-.logoF{
+.logoD{
     width: 6rem;
 }
 
@@ -18,4 +19,13 @@ footer{
     display: flex;
     flex-direction: column; 
     align-items: center;
+}
+
+.logoF{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.logoT{
+    margin-right: 0.5rem;
 }
