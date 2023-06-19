@@ -1,13 +1,13 @@
-.centrarDiv{
-    display:flex;
-   justify-content: space-around;
-   margin-top: 1rem;
+.centrarDiv {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
 }
 
-.total{
-    font-weight: bold;
+.total {
+  font-weight: bold;
 }
 
-.ajustar{
-    min-height: calc(100vh - 5rem - 10rem);
+.ajustar {
+  min-height: calc(100vh - 5rem - 10rem);
 }

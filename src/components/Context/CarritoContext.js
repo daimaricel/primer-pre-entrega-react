@@ -1,21 +1,21 @@
 import { useState, createContext } from "react";
 
-export const CarroContext = createContext({ 
+export const CarroContext = createContext({
   carrito: [],
-total: 0,
-totalItems: 0
+  total: 0,
+  totalItems: 0
 });
 
 
 
 export const CarroProvider = ({ children }) => {
   const [carrito, setCarrito] = useState([]);
-  const [total, setTotal]= useState(0);
-  const [totalItems, setTotalItems]= useState(0);
+  const [total, setTotal] = useState(0);
+  const [totalItems, setTotalItems] = useState(0);
 
 
   const addProducts = (item, cantidad) => {
-   
+
     const hayProducto = carrito.find(prod => prod.item.id === item.id);
     if (!hayProducto) {
       setCarrito(prev => [...prev, { item, cantidad }]);
@@ -36,11 +36,11 @@ export const CarroProvider = ({ children }) => {
   };
 
   const deleteItem = (id) => {
-    const itemDeleted= carrito.find (prod =>prod.item.id === id);
+    const itemDeleted = carrito.find(prod => prod.item.id === id);
     const updateCarro = carrito.filter((prod) => prod.item.id !== id);
     setCarrito(updateCarro);
-    setTotalItems(prev =>prev - itemDeleted.cantidad);
-    setTotal(prev =>prev - (itemDeleted.item.precio * itemDeleted.cantidad));
+    setTotalItems(prev => prev - itemDeleted.cantidad);
+    setTotal(prev => prev - (itemDeleted.item.precio * itemDeleted.cantidad));
   };
 
   const carroVacio = () => {

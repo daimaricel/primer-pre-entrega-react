@@ -15,14 +15,14 @@ const ItemDetail = ({
   descripcion,
 }) => {
 
-  const [agregarCantidad, setAgregarCantidad] = useState (0)
-  
-  const {addProducts} =useContext(CarroContext);
-  
-  const handleCantidad =  (cantidad) =>{
-    setAgregarCantidad (cantidad);
-    
-    const item = {id, producto, modelo, marca, precio, img, descripcion};
+  const [agregarCantidad, setAgregarCantidad] = useState(0)
+
+  const { addProducts } = useContext(CarroContext);
+
+  const handleCantidad = (cantidad) => {
+    setAgregarCantidad(cantidad);
+
+    const item = { id, producto, modelo, marca, precio, img, descripcion };
     addProducts(item, cantidad);
   }
   return (
@@ -35,7 +35,7 @@ const ItemDetail = ({
       <p>{descripcion}</p>
       <p className="precio">Precio: ${precio}</p>
       {
-        agregarCantidad >0 ? (<div><Link to = "/" className="links">Seguir comprando</Link><Link to = "/cart" className="links">Terminar compra</Link></div>) : (<ItemCount inicial = {1} stock = {stock} funcionIncluir={handleCantidad}/>)
+        agregarCantidad > 0 ? (<div><Link to="/" className="links">Seguir comprando</Link><Link to="/cart" className="links">Terminar compra</Link></div>) : (<ItemCount inicial={1} stock={stock} funcionIncluir={handleCantidad} />)
       }
     </div>
   );

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import ItemDetail from "../ItemDetail/ItemDetail";
 import { useParams } from "react-router-dom";
-import {getDoc, doc} from "firebase/firestore";
+import { getDoc, doc } from "firebase/firestore";
 import { bd } from "../../Services/config";
 
 
@@ -10,16 +10,16 @@ const ItemDetailContainer = () => {
 
   const { idItem } = useParams();
 
-  useEffect (() =>{
-      const nuevoDoc = doc (bd, "productos", idItem);
+  useEffect(() => {
+    const nuevoDoc = doc(bd, "productos", idItem);
 
-      getDoc (nuevoDoc)
-      .then (res => {
-        const data =res.data();
-        const nuevoProducto = {id: res.id, ...data}
+    getDoc(nuevoDoc)
+      .then(res => {
+        const data = res.data();
+        const nuevoProducto = { id: res.id, ...data }
         setProducto(nuevoProducto)
       })
-      .catch(error => console.log (error))
+      .catch(error => console.log(error))
   }, [idItem])
   return (
     <div>

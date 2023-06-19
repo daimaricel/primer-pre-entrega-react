@@ -1,8 +1,5 @@
-
 import { initializeApp } from "firebase/app";
-import {getFirestore} from "firebase/firestore";
-
-
+import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
   apiKey: "AIzaSyCxczctRqRzd7NKmDQKjIE8XGWhaUl-IAk",
@@ -10,9 +7,8 @@ const firebaseConfig = {
   projectId: "dalas-tennis-store",
   storageBucket: "dalas-tennis-store.appspot.com",
   messagingSenderId: "38028859764",
-  appId: "1:38028859764:web:8135ace56b136488fd7421"
+  appId: "1:38028859764:web:8135ace56b136488fd7421",
 };
-
 
 const app = initializeApp(firebaseConfig);
 

@@ -1,25 +1,22 @@
-.imgC{
-    width: 5rem;
-    height: 5rem;
-    margin-right: 0.5rem;
+.imgC {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 0.5rem;
 }
 
-.centrarD{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.centrarD {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
- 
+.divCartI {
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  box-shadow: 5px 5px 5px rgba(111, 113, 255, 0.548);
+  padding: 1rem;
+}
 
- .divCartI{
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-    box-shadow: 5px 5px 5px
-    rgba(111, 113, 255, 0.548);
-    padding: 1rem;
- }
-
- .cesto{
-    cursor: pointer;
- }
+.cesto {
+  cursor: pointer;
+}

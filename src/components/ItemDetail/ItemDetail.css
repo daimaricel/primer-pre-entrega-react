@@ -2,29 +2,28 @@
   border: 2px solid blue;
   margin: auto;
   width: 70vw;
-  display:flex;
+  display: flex;
   flex-direction: column;
   padding-bottom: 1rem;
-  }
+}
 
- .contenedorDescripcion p {
+.contenedorDescripcion p {
   padding: 0.5rem;
-} 
+}
 
 .imm {
   width: 30vw;
   margin: auto;
- 
 }
 
-.precio{
+.precio {
   font-size: 18px;
-  background-color:  #fed7ea;
+  background-color: #fed7ea;
   padding: 0.5rem;
   text-align: center;
 }
 
-.links{
+.links {
   background-color: #fed7ea;
   color: black;
   display: inline;
@@ -32,5 +31,4 @@
   width: fit-content;
   padding: 5px;
   text-decoration: underline;
-
 }

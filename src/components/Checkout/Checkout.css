@@ -1,52 +1,64 @@
-.error{
-    color: red
+.error {
+  color: red;
 }
 
-form{
-    width:400px;
-	padding:16px;
-	border-radius:10px;
-	margin:auto;
-	background-color: #fed7ea;
-	margin-bottom: 2rem;
-
+form {
+  width: 400px;
+  padding: 16px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: #fed7ea;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
 }
 
-form label{
-	width: 100px;
-	font-weight:bold;
-	display:inline-block;
+form label {
+  width: 100px;
+  font-weight: bold;
+  display: inline-block;
 }
 
 form input[type="text"],
-form input[type="email"]{
-	width: 100%;
-	padding:3px 10px;
-	border:1px solid #f6f6f6;
-	border-radius:3px;
-	background-color:#f6f6f6;
-	margin:8px 0;
-	display:inline-block;
+form input[type="email"] {
+  width: 100%;
+  padding: 3px 10px;
+  border: 1px solid #f6f6f6;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  margin: 8px 0;
+  display: inline-block;
 }
 
-button[type="submit"]{
-	width:100%;
-	padding:8px 16px;
-	margin-top:32px;
-	border:1px solid blue;
-	border-radius:5px;
-	display:block;
-	color:black;
-	background-color:blue;
-    font-weight: bold;
-} 
-
-button [type="submit"]:hover{
-	cursor:pointer;
+button[type="submit"] {
+  width: 100%;
+  padding: 8px 16px;
+  margin-top: 32px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  display: block;
+  color: black;
+  background-color: blue;
+  font-weight: bold;
 }
 
-.ordenId{
-	background-color: #fed7ea;
-	padding: 5px;
-	margin-left: 2rem;
+button[type="submit"]:hover {
+  cursor: pointer;
+  font-size: large;
+}
+
+.ordenId {
+  background-color: #fed7ea;
+  padding: 5px;
+  margin-left: 2rem;
+}
+
+.listaCheck {
+  background-color: aliceblue;
+  padding-left: 5px;
+}
+
+.totalP {
+  background-color: fuchsia;
+  text-align: center;
+  padding: 5px;
 }

@@ -9,7 +9,7 @@ const Item = ({ producto, marca, modelo, img, id, precio }) => {
       </h3>
       <img className="imgProduct" src={img} alt={producto} />
       <p>${precio}</p>
-      <Link to={`/item/${id}`}> Más info</Link>
+      <Link to={`/item/${id}`} className="masI"> Más info</Link>
     </div>
   );
 };

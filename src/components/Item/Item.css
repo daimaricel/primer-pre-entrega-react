@@ -32,3 +32,7 @@ h3 {
 p {
   font-weight: bold;
 }
+
+.masI:hover {
+  text-decoration: underline;
+}

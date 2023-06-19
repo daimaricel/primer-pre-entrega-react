@@ -1,31 +1,35 @@
-footer{
-    background-color: blue;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0.5rem;
-    color: black;
-    font-size: 14px;
-    margin-top: 2rem;
-   height: 5rem;
+footer {
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5rem;
+  color: black;
+  font-size: 14px;
+  margin-top: 2rem;
+  height: 5rem;
 }
 
-.logoD{
-    width: 5rem;
-    margin-bottom: 0.5rem;
+.logoD {
+  width: 5rem;
+  margin-bottom: 0.5rem;
 }
 
-.divF{
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
+.divF {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.logoF{
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+.logoF {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
-.logoT{
-    margin-right: 0.5rem;
+.logoT {
+  margin-right: 0.5rem;
+}
+
+.logo:hover {
+  width: 20px;
 }

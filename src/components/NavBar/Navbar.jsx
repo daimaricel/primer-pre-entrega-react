@@ -8,10 +8,9 @@ const NavBar = () => {
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
         <Link to={"/"}>
-          <h1>
-            <img src={logo} alt="" className="logoDl" />
-          </h1>
+          <img src={logo} alt="logo Dalas tennis store" className="logoDl" />
         </Link>
+
         <button
           className="navbar-toggler"
           type="button"
@@ -23,6 +22,7 @@ const NavBar = () => {
         >
           <span className="navbar-toggler-icon" />
         </button>
+
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
@@ -66,10 +66,14 @@ const NavBar = () => {
               </NavLink>
             </li>
           </ul>
+
         </div>
+        <CartWidget />
       </div>
-      <CartWidget />
+
     </nav>
+
+
   );
 };
 
